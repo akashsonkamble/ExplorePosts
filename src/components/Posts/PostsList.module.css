@@ -1,0 +1,39 @@
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  margin: 0.5rem 0;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem 2rem;
+}
+
+p {
+  margin: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem;
+  text-align: center;
+}
+
+.post-item h3,
+.post-item p {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .post-item {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .post-item input,
+  .post-item span {
+    width: 100%;
+  }
+}
